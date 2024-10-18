@@ -1,0 +1,41 @@
+
+{
+  "expo": {
+    "name": "Crowdify",
+    "slug": "awesomeproject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/HomeLogoIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "size": "100px"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      
+      "package": "com.kamalnath123.awesomeproject"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "29a37adb-2c24-486e-9c2f-302ea5fd028d"
+      }
+    },
+    "owner": "kamalnath123",
+    "scheme": ["crowdify"]
+  }
+}
